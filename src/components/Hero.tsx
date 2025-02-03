@@ -1,7 +1,19 @@
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Hero = () => {
+  const images = [
+    "/lovable-uploads/0d1142e8-6482-4330-8b31-8ecc2aec79d7.png",
+    "/lovable-uploads/0c4b5481-4107-472e-aa09-543a6d23eb5c.png",
+    "/lovable-uploads/0e0f3bef-4eec-4e24-aae3-0cddf255fbd3.png",
+    "/lovable-uploads/69875246-1dc0-4ef2-b360-6621b9d3328d.png",
+  ];
+
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-coffee-secondary/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
@@ -15,12 +27,24 @@ const Hero = () => {
               Handgefertigt mit Präzision für Kaffeeliebhaber.
             </p>
           </div>
-          <div className="relative animate-float">
-            <img
-              src="/lovable-uploads/8f7a2f96-7926-4fd1-8370-15478c355ce8.png"
-              alt="Siebträgertraum Filter Box"
-              className="w-full max-w-lg mx-auto rounded-lg shadow-xl"
-            />
+          <div className="relative">
+            <Carousel className="w-full max-w-lg mx-auto">
+              <CarouselContent>
+                {images.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <div className="p-1">
+                      <img
+                        src={image}
+                        alt={`Siebträgertraum Filter Box Ansicht ${index + 1}`}
+                        className="w-full rounded-lg shadow-xl"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
           </div>
         </div>
       </div>
