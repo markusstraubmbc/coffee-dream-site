@@ -6,10 +6,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Products", path: "/products" },
-    { name: "Contact", path: "/contact" },
+    { name: "Start", path: "/" },
+    { name: "Über uns", path: "/about" },
+    { name: "Produkte", path: "/products" },
+    { name: "Kontakt", path: "/contact" },
   ];
 
   return (
