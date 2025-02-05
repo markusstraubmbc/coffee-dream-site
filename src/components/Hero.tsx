@@ -8,10 +8,10 @@ import {
 
 const Hero = () => {
   const images = [
+    "/lovable-uploads/69875246-1dc0-4ef2-b360-6621b9d3328d.png", // Black product first
     "/lovable-uploads/0d1142e8-6482-4330-8b31-8ecc2aec79d7.png",
     "/lovable-uploads/0c4b5481-4107-472e-aa09-543a6d23eb5c.png",
     "/lovable-uploads/0e0f3bef-4eec-4e24-aae3-0cddf255fbd3.png",
-    "/lovable-uploads/69875246-1dc0-4ef2-b360-6621b9d3328d.png",
   ];
 
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             <p className="text-xl text-coffee-primary/80">
               Entdecken Sie unsere Premium-Filterbox, entwickelt für den perfekten Espresso.
-              Handgefertigt mit Präzision für Kaffeeliebhaber.
+              Mit Präzision gefertigt für Kaffeeliebhaber.
             </p>
           </div>
           <div className="relative">
