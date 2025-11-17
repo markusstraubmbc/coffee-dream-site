@@ -14,7 +14,7 @@ const Features = () => {
             </div>
             <h3 className="text-xl font-semibold text-coffee-primary">Premium Qualität</h3>
             <p className="text-coffee-primary/80">
-              Handgefertigt aus hochwertigen Materialien für das perfekte Espresso-Erlebnis.
+              Aus hochwertigen Materialien gefertigt für das perfekte Espresso-Erlebnis.
             </p>
           </div>
           <div className="flex flex-col items-center text-center space-y-4">
@@ -23,7 +23,7 @@ const Features = () => {
             </div>
             <h3 className="text-xl font-semibold text-coffee-primary">Elegantes Design</h3>
             <p className="text-coffee-primary/80">
-              Schlichtes und sophistiziertes Design, das Ihr Kaffeeritual bereichert.
+              Schlichtes und modernes Design, das Ihr Kaffeeritual bereichert.
             </p>
           </div>
           <div className="flex flex-col items-center text-center space-y-4">
