@@ -16,7 +16,9 @@ const Index = () => {
       <div id="features">
         <Features />
       </div>
-      <PaperFilterInfo />
+      <div id="paper-filter-info">
+        <PaperFilterInfo />
+      </div>
       <div id="about">
         <About />
       </div>

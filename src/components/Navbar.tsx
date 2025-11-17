@@ -7,11 +7,18 @@ const Navbar = () => {
   const navItems = [
     { name: "Start", section: "hero" },
     { name: "Funktionen", section: "features" },
+    { name: "Jetzt kaufen", section: "amazon", isExternal: true, url: "https://amzn.eu/d/ffVGgZh" },
+    { name: "Wissenswertes", section: "paper-filter-info" },
     { name: "Über uns", section: "about" },
     { name: "Kontakt", section: "contact" },
   ];
 
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId: string, url?: string, isExternal?: boolean) => {
+    if (isExternal && url) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+      setIsOpen(false);
+      return;
+    }
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -34,7 +41,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               <button
                 key={item.name}
-                onClick={() => scrollToSection(item.section)}
+                onClick={() => scrollToSection(item.section, item.url, item.isExternal)}
                 className="text-coffee-primary hover:text-coffee-light transition-colors"
               >
                 {item.name}
@@ -61,7 +68,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               <button
                 key={item.name}
-                onClick={() => scrollToSection(item.section)}
+                onClick={() => scrollToSection(item.section, item.url, item.isExternal)}
                 className="block w-full text-left px-3 py-2 text-coffee-primary hover:text-coffee-light transition-colors"
               >
                 {item.name}
