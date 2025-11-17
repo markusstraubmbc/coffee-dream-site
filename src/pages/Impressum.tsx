@@ -22,9 +22,8 @@ const Impressum = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold mb-2">Umsatzsteuer-ID</h2>
-              <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
-              <p>[Ihre USt-IdNr.]</p>
+              <h2 className="text-xl font-semibold mb-2">Umsatzsteuer</h2>
+              <p>Als Kleinunternehmer im Sinne von § 19 Abs. 1 Umsatzsteuergesetz (UStG) wird keine Umsatzsteuer berechnet.</p>
             </div>
 
             <div>

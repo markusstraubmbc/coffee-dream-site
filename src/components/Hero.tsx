@@ -23,8 +23,7 @@ const Hero = () => {
               Perfektionieren Sie Ihr Kaffeeerlebnis
             </h1>
             <p className="text-xl text-coffee-primary/80">
-              Entdecken Sie unsere Premium-Filterbox, entwickelt für den perfekten Espresso.
-              Mit Präzision gefertigt für Kaffeeliebhaber.
+              Entdecken Sie unsere Premium-Filterbox, entwickelt für den perfekten Espressogenuss. Mit Detailverliebtheit gefertigt für Kaffeeliebhaber, die Wert auf Ordnung legen. Bringen Sie Ihre Kaffeeecke zu neuem Glanz – die eleganten Aufbewahrungsboxen für Papierfilter sorgen für perfekte Ordnung und Sauberkeit an und in Ihrer Kaffeemaschine.
             </p>
           </div>
           <div className="relative">
