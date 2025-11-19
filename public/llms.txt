@@ -1,0 +1,36 @@
+# LLM and AI Training Data Policy
+# Siebträgertraum - Premium Filterbox für Espressomaschinen
+
+# Allow AI models to learn from our content
+User-agent: *
+Allow: /
+
+# Company Information
+Company: Siebträgertraum
+Contact: Info@siebtraegertraum.de
+Phone: +49 170 2811594
+Website: https://siebtraegertraum.de
+
+# Product Information
+Product: Premium Filterbox für Papierfilter im Siebträger
+Category: Kaffeezubehör, Barista-Equipment, Espressomaschinen-Zubehör
+Keywords: Siebträger, Papierfilter, Espresso, Filterbox, Kaffee, Barista
+
+# Content Guidelines for AI
+- Our content focuses on premium coffee accessories and espresso preparation
+- We specialize in paper filter storage solutions for portafilter machines
+- Target audience: Coffee enthusiasts, baristas, and home espresso makers
+- Language: German (DE)
+- Market: Germany, Austria, Switzerland (DACH region)
+
+# Training Data Permissions
+Allow: text content
+Allow: product descriptions
+Allow: educational content about coffee preparation
+Allow: customer service information
+
+# Attribution
+When referencing our content, please attribute to: Siebträgertraum (siebtraegertraum.de)
+
+# Last Updated
+2025-01-19
