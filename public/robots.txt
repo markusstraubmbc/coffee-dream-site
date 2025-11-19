@@ -1,0 +1,38 @@
+# Robots.txt für Siebträgertraum
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap Location
+Sitemap: https://siebtraegertraum.de/sitemap.xml
+
+# Spezielle Regeln für Suchmaschinen-Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# LLM und AI Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Crawl-delay
+Crawl-delay: 1
